@@ -21,7 +21,7 @@
     justify-content: space-evenly ;
 }
 .logo {
-    background-image: url("amazon_logo.png");
+    background-image: url("images/amazon_logo.png");
     background-size: cover;
     height: 50px;
     width: 100%;
@@ -119,7 +119,7 @@ span{
     width: 400px;
 }
 .panel-relase-pic{
-    background-image: url("panel-pic-release.png");
+    background-image: url("images/panel-pic-release.png");
     background-size: cover;
     height: 40px;
     width: 100%;
@@ -143,7 +143,7 @@ span{
 }
 /** hero-section **/
 .hero-section{
-    background-image: url("hero-image.png");
+    background-image: url("images/hero-image.png");
     height: 300px;
     background-size: cover;
     display: flex;
@@ -155,7 +155,7 @@ span{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    background-color: #324797;
+    background-image: linear-gradient(180deg, rgb(8, 31, 105),rgb(206, 211, 227));;
 }
 .box{
     height:400px;
@@ -169,7 +169,7 @@ span{
     text-align: center;
 }
 .box1-image{
-    background-image: url('box1.jpg');
+    background-image: url('images/box1.jpg');
     height: 300px;
     margin-top: 1rem;
     background-size: cover; /* This will cover the entire frame */
@@ -177,51 +177,87 @@ span{
     background-repeat: no-repeat; /* Do not repeat the background image */
 }
 .box2-image{
-    background-image: url('box2.jpg');
+    background-image: url('images/box2.jpg');
     height: 300px;
     background-size: cover; /* This will cover the entire frame */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; /* Do not repeat the background image */
 }
 .box3-image{
-    background-image: url('box3.jpg');
+    background-image: url('images/box3.jpg');
     height: 300px;
     background-size: cover; /* This will cover the entire frame */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; /* Do not repeat the background image */
 }
 .box4-image{
-    background-image: url('box4.jpg');
-    height: 300px;
+    background-image: url('images/box4.jpg');
+    height: 280px;
     background-size: cover; /* This will cover the entire frame */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; /* Do not repeat the background image */
 }
 .box5-image{
-    background-image: url('box5.jpg');
+    background-image: url('images/box5.jpg');
     height: 300px;
     background-size: cover; /* This will cover the entire frame */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; /* Do not repeat the background image */
 }
 .box6-image{
-    background-image: url('box6.jpg');
+    background-image: url('images/box6.jpg');
     height: 300px;
     background-size: cover; /* This will cover the entire frame */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; /* Do not repeat the background image */
 }
 .box7-image{
-    background-image: url('box7.jpg');
+    background-image: url('images/box7.jpg');
     height: 300px;
     background-size: cover; /* This will cover the entire frame */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; /* Do not repeat the background image */
 }
 .box8-image{
-    background-image: url('box8.jpg');
+    background-image: url('images/box8.jpg');
     height: 300px;
     background-size: cover; /* This will cover the entire frame */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; /* Do not repeat the background image */
+}
+footer{
+    margin-top: 15px;
+}
+
+
+.foot-panel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    font-size: 0.85rem;
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+}
+.foot-panel2{
+    background-color: #232f3e;
+    color: white;
+    height: 300px;
+    font-size: 0.85rem;
+    display: flex ;
+    justify-content: space-evenly;
+}
+
+ul{
+    margin-top: 25px;  
+}
+ul a{
+    display: block;
+    margin-top: 10px;
+    font-size: 0.85rem;
+    color: #DDDDDD;
+}
+ul p{
+    font-size: 16px;
+    font-weight: 700;
 }
